@@ -19,17 +19,17 @@
 
 1️⃣ Clone or copy the script:  
 ```bash
-git clone https://github.com/yourusername/tor-snowflake-manager
+git clone https://github.com/ttn2007/tsm.git
 ```
 
 2️⃣ Make the script executable:  
 ```bash
-chmod +x ~/tor-snowflake-manager/tor-snowflake.sh
+chmod +x ~/tsm/TSM.sh
 ```
 
 3️⃣ (Optional) Add an alias to `.bashrc` or `.zshrc` for quick access:  
 ```bash
-echo 'alias tsm="bash ~/tor-snowflake-manager/tor-snowflake.sh"' >> ~/.bashrc
+echo 'alias tsm="bash ~/tsm/TSM.sh"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -44,7 +44,7 @@ tsm start
 
 Run the script:  
 ```bash
-bash ~/tor-snowflake-manager/tor-snowflake.sh <option>
+bash ~/tsm/TSM.sh <option>
 ```
 
 Options:  
@@ -58,7 +58,7 @@ status  → Check Tor service status and show Tor IP
 
 ## 📄 Dependencies
 
-✅ Bash (default in Linux/WSL)  
+✅ Bash  
 ✅ Required packages:  
 ```bash
 sudo apt update && sudo apt install -y tor snowflake-client torsocks curl
